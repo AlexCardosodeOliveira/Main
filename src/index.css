@@ -12,6 +12,11 @@ All colors MUST be HSL.
     --background: 0 0% 98%;
     --foreground: 0 0% 8%;
 
+    /* Professional gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(220 100% 50%), hsl(200 100% 40%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 98%), hsl(0 0% 94%));
+    --gradient-accent: linear-gradient(45deg, hsl(220 100% 50% / 0.1), hsl(200 100% 40% / 0.1));
+
     --card: 0 0% 100%;
     --card-foreground: 0 0% 8%;
 
@@ -59,6 +64,11 @@ All colors MUST be HSL.
   .dark {
     --background: 0 0% 8%;
     --foreground: 0 0% 98%;
+
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(220 100% 60%), hsl(200 100% 50%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 8%), hsl(0 0% 12%));
+    --gradient-accent: linear-gradient(45deg, hsl(220 100% 60% / 0.1), hsl(200 100% 50% / 0.1));
 
     --card: 0 0% 12%;
     --card-foreground: 0 0% 98%;

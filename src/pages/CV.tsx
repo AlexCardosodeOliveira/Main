@@ -18,14 +18,29 @@ const CV = () => {
             <CardContent className="space-y-6">
               <div>
                 <div className="flex justify-between items-start mb-2">
+                  <h3 className="text-lg font-semibold">Senior Research Associate</h3>
+                  <span className="text-sm text-muted-foreground font-mono">2025 - Present</span>
+                </div>
+                <p className="text-accent font-medium mb-2">Bionet Therapeutics Corp.</p>
+                <p className="text-sm text-muted-foreground mb-3">Product Development R&D, Taipei, Taiwan</p>
+                <ul className="list-disc list-inside text-sm space-y-1">
+                  <li>Experiment design and oversight for novel therapeutic development</li>
+                  <li>Product-market fit analysis and strategic development planning</li>
+                  <li>Advanced exosome product laboratory studies spanning cosmetics and pharmaceutical applications</li>
+                  <li>Cross-functional leadership in translational research initiatives</li>
+                </ul>
+              </div>
+
+              <div>
+                <div className="flex justify-between items-start mb-2">
                   <h3 className="text-lg font-semibold">Senior Research Specialist</h3>
                   <span className="text-sm text-muted-foreground font-mono">2024 - 2025</span>
                 </div>
                 <p className="text-accent font-medium mb-2">Bionet Therapeutics Corp.</p>
                 <p className="text-sm text-muted-foreground mb-3">R&D, New drug discovery</p>
                 <ul className="list-disc list-inside text-sm space-y-1">
-                  <li>Carried out various independent research projects (wet lab and literature search)</li>
-                  <li>Contributed to new products' development and functional testing</li>
+                  <li>Led independent research projects combining wet lab expertise with comprehensive literature analysis</li>
+                  <li>Drove innovation in novel therapeutic development and functional testing protocols</li>
                 </ul>
               </div>
 

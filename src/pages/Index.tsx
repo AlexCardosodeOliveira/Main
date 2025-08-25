@@ -8,7 +8,7 @@ const Index = () => {
 
   return (
     <Layout>
-      <div className="min-h-screen bg-background">
+      <div className="min-h-screen bg-gradient-to-br from-background via-background to-muted">
         {/* Hero Section */}
         <section className="max-w-7xl mx-auto px-6 py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -19,8 +19,9 @@ const Index = () => {
                 <span className="text-accent">DE OLIVEIRA</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Research Scientist specializing in Cell Biology, Cancer Research, and Drug Discovery. 
-                Currently Senior Research Specialist at Bionet Therapeutics Corp.
+                Senior Research Associate advancing breakthrough therapeutics in cell biology and cancer research. 
+                Leading translational research initiatives at Bionet Therapeutics Corp with expertise spanning 
+                drug discovery, exosome applications, and product-market optimization.
               </p>
               
               <div className="flex flex-wrap gap-4 mb-8">
@@ -34,10 +35,13 @@ const Index = () => {
 
               <div className="flex flex-wrap gap-6 text-sm text-muted-foreground">
                 <div>
-                  <span className="font-medium">Location:</span> Taipei City, Taiwan
+                  <span className="font-medium">Based:</span> Taipei City, Taiwan
                 </div>
                 <div>
-                  <span className="font-medium">Specialization:</span> Cell Biology & Cancer Research
+                  <span className="font-medium">Focus:</span> Translational Medicine & Drug Discovery
+                </div>
+                <div>
+                  <span className="font-medium">Expertise:</span> Exosome Therapeutics
                 </div>
               </div>
             </div>
@@ -101,61 +105,67 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Current Position Section */}
+        {/* Current Leadership Section */}
         <section className="py-16">
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-bold mb-6">CURRENT POSITION</h2>
+                <h2 className="text-3xl font-bold mb-6">RESEARCH LEADERSHIP</h2>
                 <div className="space-y-4">
                   <div>
-                    <h3 className="text-xl font-semibold text-accent">Senior Research Specialist</h3>
-                    <p className="text-muted-foreground">Bionet Therapeutics Corp. (2024 - 2025)</p>
+                    <h3 className="text-xl font-semibold text-accent">Senior Research Associate</h3>
+                    <p className="text-muted-foreground">Bionet Therapeutics Corp. (2025 - Present)</p>
                   </div>
                   
                   <p className="text-muted-foreground leading-relaxed">
-                    Leading independent research projects in new drug discovery, combining wet lab expertise 
-                    with comprehensive literature analysis. Contributing to the development of novel therapeutics 
-                    and functional testing protocols.
+                    Spearheading advanced therapeutic development through strategic experiment design and 
+                    cross-functional leadership. Driving innovation in exosome applications across cosmetic 
+                    and pharmaceutical domains while optimizing product-market alignment for next-generation therapeutics.
                   </p>
 
                   <div className="pt-4">
-                    <h4 className="font-semibold mb-2">Key Responsibilities:</h4>
+                    <h4 className="font-semibold mb-2">Strategic Impact:</h4>
                     <ul className="text-sm text-muted-foreground space-y-1">
-                      <li>• Independent research project management</li>
-                      <li>• New drug discovery and development</li>
-                      <li>• Functional testing and validation</li>
-                      <li>• Literature research and analysis</li>
+                      <li>• Translational research program development</li>
+                      <li>• Advanced exosome therapeutic platforms</li>
+                      <li>• Product-market fit optimization</li>
+                      <li>• Cross-functional team leadership</li>
                     </ul>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-muted p-8 border-l-4 border-accent">
-                <h3 className="text-lg font-semibold mb-4">Research Expertise</h3>
+              <div className="bg-gradient-to-br from-muted to-muted/50 p-8 border-l-4 border-accent">
+                <h3 className="text-lg font-semibold mb-4">Domain Mastery</h3>
                 <div className="space-y-3 text-sm">
                   <div className="flex items-center justify-between">
-                    <span>Cell Biology</span>
+                    <span>Translational Medicine</span>
                     <div className="w-20 h-2 bg-background">
                       <div className="w-full h-full bg-accent"></div>
                     </div>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span>Cancer Research</span>
+                    <span>Exosome Therapeutics</span>
                     <div className="w-20 h-2 bg-background">
                       <div className="w-full h-full bg-accent"></div>
                     </div>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span>Drug Discovery</span>
+                    <span>Cancer Biology</span>
                     <div className="w-20 h-2 bg-background">
-                      <div className="w-4/5 h-full bg-accent"></div>
+                      <div className="w-full h-full bg-accent"></div>
                     </div>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span>Organoid Models</span>
+                    <span>Drug Development</span>
                     <div className="w-20 h-2 bg-background">
-                      <div className="w-4/5 h-full bg-accent"></div>
+                      <div className="w-5/6 h-full bg-accent"></div>
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span>Product Strategy</span>
+                    <div className="w-20 h-2 bg-background">
+                      <div className="w-5/6 h-full bg-accent"></div>
                     </div>
                   </div>
                 </div>

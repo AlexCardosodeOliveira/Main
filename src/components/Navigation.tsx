@@ -70,6 +70,17 @@ const Navigation = () => {
               ADDITIONAL
             </NavLink>
             <NavLink
+              to="/blog"
+              className={({ isActive }) =>
+                cn(
+                  "text-sm font-medium transition-colors hover:text-accent",
+                  isActive ? "text-accent border-b-2 border-accent pb-1" : "text-foreground"
+                )
+              }
+            >
+              INSIGHTS
+            </NavLink>
+            <NavLink
               to="/contact"
               className={({ isActive }) =>
                 cn(
