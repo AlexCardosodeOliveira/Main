@@ -1,3 +1,4 @@
+
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -19,7 +20,7 @@ const Index = () => {
                 <span className="text-accent">DE OLIVEIRA</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Alex was born and raised in Ticino, Switzerland. During his Bachelor's in Bern, he worked on T cell migration through the brain's barriers. During his Master's at ETH Zurich, he worked on an organoid-based reporter system for cancer research. Since November 2022, he is based in Taipei, and has been working at Bionet (訊聯), a Taiwanese company specializing in exosome therapeutics and cosmetics.
+                Alex was born and raised in Ticino, Switzerland. During his Bachelor's in Bern, he worked on <a href="https://pubmed.ncbi.nlm.nih.gov/37264368/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">T cell migration through the brain's barriers</a>. During his Master's at ETH Zurich, he worked on an organoid-based reporter system for cancer research. Since November 2022, he is based in Taipei, and has been working at Bionet (訊聯), a Taiwanese company specializing in exosome therapeutics and cosmetics.
               </p>
               
               <div className="flex flex-wrap gap-4 mb-8">
@@ -52,7 +53,7 @@ const Index = () => {
                     alt="Alex Cardoso de Oliveira"
                     className="w-full h-full object-cover"
                     onError={(e) => {
-                      e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjMyMCIgdmlld0JveD0iMCAwIDMyMCAzMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMjAiIGhlaWdodD0iMzIwIiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0xNjAgMjQwQzE4NC44NTMgMjQwIDIwNSAyMTkuODUzIDIwNSAxOTVDMjA1IDE3MC4xNDcgMTg0Ljg1MyAxNTAgMTYwIDE1MEMxMzUuMTQ3IDE1MCAxMTUgMTcwLjE0NyAxMTUgMTk1QzExNSAyMTkuODUzIDEzNS4xNDcgMjQwIDE2MCAyNDBaIiBmaWxsPSIjOUI5Qzk5Ii8+CjxwYXRoIGQ9Ik0xNjAgMTMwQzE4Mi4wOTEgMTMwIDIwMCAxMTIuMDkxIDIwMCA5MEM2NzLjkwODYgODAgNzUgOTcuOTA4NiA3NSAxMjBDNzUgMTQyLjA5MSA5Mi45MDg2IDE2MCAxMTUgMTYwQzEzNy4wOTEgMTYwIDE1NSAxNDIuMDkxIDE1NSAxMjBDMTU1IDk3LjkwODYgMTM3LjA5MSA4MCAxMTUgODBaIiBmaWxsPSIjOUI5Qzk5Ii8+Cjwvc3ZnPgo=';
+                      e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjMyMCIgdmlld0JveD0iMCAwIDMyMCAzMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMjAiIGhlaWdodD0iMzIwIiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0xNjAgMjQwQzE4NC44NTMgMjQwIDIwNSAyMTkuODUzIDIwNSAxOTVDMjA1IDE3MC4xNDcgMTg0Ljg1MyAxNTAgMTYwIDE1MEMxMzUuMTQ3IDE1MCAxMTUgMTcwLjE0NyAxMTUgMTk1QzExNSAyMTkuODUzIDEzNS4xNDcgMjQwIDE2MCAyNDBaIiBmaWxsPSIjOUI5Qzk5Ii8+CjxwYXRoIGQ9Ik0xNjAgMTMwQzE4Mi4wOTEgMTMwIDIwMCAxMTIuMDkxIDIwMCA5MEM2Ny45MDg2IDgwIDc1IDk3LjkwODYgNzUgMTIwQzc1IDE0Mi4wOTEgOTIuOTA4NiAxNjAgMTE1IDE2MEMxMzcuMDkxIDE2MCAxNTUgMTQyLjA5MSAxNTUgMTIwQzE1NSA5Ny45MDg2IDEzNy4wOTEgODAgMTE1IDgwWiIgZmlsbD0iIzlCOUM5OSIvPgo8L3N2Zz4K';
                     }}
                   />
                 </div>
