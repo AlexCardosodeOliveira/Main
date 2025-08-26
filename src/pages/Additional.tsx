@@ -1,3 +1,4 @@
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Layout from "@/components/Layout";
 
@@ -23,6 +24,13 @@ const Additional = () => {
                   <span className="text-sm text-muted-foreground font-mono">2014 - 2018</span>
                   <p className="text-sm text-muted-foreground">Moudon</p>
                 </div>
+              </div>
+              <div className="mt-4 mb-4">
+                <img 
+                  src="/lovable-uploads/8a16f22a-79cb-48ae-92b7-355c6b8070c5.png" 
+                  alt="Military service - Hospital soldier training" 
+                  className="w-full h-64 object-cover rounded-lg"
+                />
               </div>
               <div className="mt-4 p-4 bg-muted">
                 <p className="text-sm">
