@@ -21,17 +21,16 @@ const CV = () => {
                 <div>
                   <div className="flex justify-between items-start mb-2">
                     <h3 className="text-lg font-semibold">Senior Research Specialist</h3>
-                    <span className="text-sm text-muted-foreground font-mono">2023 - Present</span>
+                    <span className="text-sm text-muted-foreground font-mono">2024 - 2025</span>
                   </div>
                   <p className="text-accent font-medium mb-2">Bionet Therapeutics Corp.</p>
                   <p className="text-sm text-muted-foreground mb-3">Product Development R&D, Taipei, Taiwan</p>
                   <ul className="list-disc list-inside text-sm space-y-1">
                     <li>Experiment design and oversight for novel therapeutic development</li>
-                    <li>Product-market fit analysis and strategic development planning</li>
-                    <li>Advanced exosome product laboratory studies spanning cosmetics and pharmaceutical applications</li>
-                    <li>Cross-functional leadership in translational research initiatives</li>
-                    <li>Led independent research projects combining wet lab expertise with comprehensive literature analysis</li>
-                    <li>Drove innovation in novel therapeutic development and functional testing protocols</li>
+                    <li>Strategic product characterization and development</li>
+                    <li>Exosome product laboratory studies, spanning pharmaceutical and cosmetic applications</li>
+                    <li>Management of independent research projects combining wet lab expertise with comprehensive literature analysis</li>
+                    <li>Continuous formation and skill enrichment by active participation in relevant presentations, conferences and courses in the field</li>
                   </ul>
                 </div>
 
@@ -49,7 +48,7 @@ const CV = () => {
                 <div>
                   <div className="flex justify-between items-start mb-2">
                     <h3 className="text-lg font-semibold">Assistant Researcher</h3>
-                    <span className="text-sm text-muted-foreground font-mono">2021 - 2022</span>
+                    <span className="text-sm text-muted-foreground font-mono">2022</span>
                   </div>
                   <p className="text-accent font-medium mb-2">ETH Zurich</p>
                   <p className="text-sm text-muted-foreground mb-3">
@@ -64,7 +63,7 @@ const CV = () => {
                 <div>
                   <div className="flex justify-between items-start mb-2">
                     <h3 className="text-lg font-semibold">Salesperson / Shopkeeper</h3>
-                    <span className="text-sm text-muted-foreground font-mono">2020 - 2021</span>
+                    <span className="text-sm text-muted-foreground font-mono">2020 - 2022</span>
                   </div>
                   <p className="text-accent font-medium mb-2">ETH Store</p>
                   <p className="text-sm text-muted-foreground mb-3">Student job concurrent with studies, Hönggerberg campus, Zurich, Switzerland</p>
