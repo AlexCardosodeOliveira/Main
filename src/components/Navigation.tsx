@@ -1,9 +1,10 @@
+
 import { NavLink } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
 const Navigation = () => {
   return (
-    <nav className="border-b border-border bg-background">
+    <nav className="border-b border-border bg-background/95 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <NavLink 
@@ -68,17 +69,6 @@ const Navigation = () => {
               }
             >
               ADDITIONAL
-            </NavLink>
-            <NavLink
-              to="/blog"
-              className={({ isActive }) =>
-                cn(
-                  "text-sm font-medium transition-colors hover:text-accent",
-                  isActive ? "text-accent border-b-2 border-accent pb-1" : "text-foreground"
-                )
-              }
-            >
-              INSIGHTS
             </NavLink>
             <NavLink
               to="/contact"
