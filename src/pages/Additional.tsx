@@ -29,7 +29,7 @@ const Additional = () => {
                 <img 
                   src="/lovable-uploads/8a16f22a-79cb-48ae-92b7-355c6b8070c5.png" 
                   alt="Military service - Hospital soldier training" 
-                  className="w-full h-64 object-cover rounded-lg"
+                  className="w-full object-cover rounded-lg"
                 />
               </div>
               <div className="mt-4 p-4 bg-muted">
@@ -45,7 +45,7 @@ const Additional = () => {
             <CardContent className="pt-6">
               <div className="flex justify-between items-start mb-4">
                 <div>
-                  <h3 className="text-xl font-bold">Folk Rock Band Bassist</h3>
+                  <h3 className="text-xl font-bold">Folk Rock Band</h3>
                   <p className="text-accent font-medium">Voices Beyond Silence</p>
                   <p className="text-sm text-muted-foreground">Musical performance and creative collaboration</p>
                 </div>
@@ -55,8 +55,15 @@ const Additional = () => {
               </div>
               <div className="mt-4 p-4 bg-muted">
                 <p className="text-sm">
-                  Active musician and bassist for the folk rock band "Voices Beyond Silence", 
-                  demonstrating creativity, teamwork, and commitment to artistic expression alongside scientific pursuits.
+                  Active composer and bassist for the folk rock band "Voices Beyond Silence". 
+                  <a 
+                    href="https://open.spotify.com/artist/0q5YPsLqNfDOtgTrWqp21F" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-accent hover:underline ml-1"
+                  >
+                    Spotify
+                  </a>
                 </p>
               </div>
             </CardContent>
@@ -67,59 +74,52 @@ const Additional = () => {
               <div className="flex justify-between items-start mb-4">
                 <div>
                   <h3 className="text-xl font-bold">Amateur Photographer</h3>
-                  <p className="text-accent font-medium">Cultural Documentation</p>
-                  <p className="text-sm text-muted-foreground">Documentation of Taiwan's Indigenous tribal culture</p>
+                  <p className="text-accent font-medium">Focus on Taiwan's Indigenous tribal rituals and culture</p>
                 </div>
                 <div className="text-right">
-                  <span className="text-sm text-muted-foreground font-mono">2016 - Present</span>
+                  <span className="text-sm text-muted-foreground font-mono">2023 - Present</span>
+                </div>
+              </div>
+              <div className="mt-4 mb-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <img 
+                    src="/lovable-uploads/37f8facd-fbc6-496e-8fba-b8922777065f.png" 
+                    alt="Taiwan Indigenous tribal ritual - Traditional ceremony" 
+                    className="w-full h-64 object-cover rounded-lg"
+                  />
+                  <img 
+                    src="/lovable-uploads/63407aec-5444-4c2e-b631-94f4969e621b.png" 
+                    alt="Taiwan Indigenous culture - Mountain landscape" 
+                    className="w-full h-64 object-cover rounded-lg"
+                  />
+                  <img 
+                    src="/lovable-uploads/e97748ed-5c9f-401f-8e73-c5e22b575433.png" 
+                    alt="Taiwan Indigenous tribal culture - Traditional dance" 
+                    className="w-full h-64 object-cover rounded-lg"
+                  />
                 </div>
               </div>
               <div className="mt-4 p-4 bg-muted">
                 <p className="text-sm">
-                  Passionate about cultural preservation through photography, specializing in documenting 
-                  Taiwan's Indigenous tribal cultures. This work demonstrates cultural sensitivity, 
-                  attention to detail, and commitment to preserving important cultural heritage.
+                  Documentation of cultural heritage and shamanic rituals as performed by the new generation of Taiwanese aboriginals.
                 </p>
               </div>
             </CardContent>
           </Card>
-        </div>
 
-        <div className="mt-12">
           <Card>
-            <CardHeader>
-              <CardTitle className="text-2xl border-b border-border pb-2">Personal Qualities</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <CardContent className="pt-6">
+              <div className="flex justify-between items-start mb-4">
                 <div>
-                  <h3 className="font-semibold text-accent mb-3">Leadership & Service</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Military service experience has developed strong leadership skills, 
-                    discipline, and the ability to perform effectively under pressure.
-                  </p>
+                  <h3 className="text-xl font-bold">Electronic Music Project</h3>
+                  <p className="text-accent font-medium">Mafayo</p>
+                  <p className="text-sm text-muted-foreground">Music duo focusing on Taiwanese aboriginal themes with modern EDM production</p>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-accent mb-3">Creative Expression</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Musical background brings creativity and collaborative spirit to professional work, 
-                    enhancing problem-solving approaches and team dynamics.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-accent mb-3">Cultural Awareness</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Photography work demonstrates cultural sensitivity and appreciation for diversity, 
-                    valuable assets in international research environments.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-accent mb-3">Work-Life Balance</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Diverse interests outside of science contribute to a well-rounded perspective 
-                    and sustained motivation in professional endeavors.
-                  </p>
-                </div>
+              </div>
+              <div className="mt-4 p-4 bg-muted">
+                <p className="text-sm">
+                  Music duo focusing on Taiwanese aboriginal themes with modern EDM production.
+                </p>
               </div>
             </CardContent>
           </Card>
