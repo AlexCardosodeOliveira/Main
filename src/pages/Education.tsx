@@ -34,7 +34,6 @@ const Education = () => {
                     <h3 className="text-xl font-bold">ETH Zurich</h3>
                     <p className="text-accent font-medium">Master of Science ETH in Biology</p>
                     <p className="text-sm text-muted-foreground">Specialization in Cell Biology</p>
-                    <p className="text-xs text-muted-foreground mt-2 italic">Approfondimento in biologia cellulare</p>
                   </div>
                   <div className="text-right">
                     <span className="text-sm text-muted-foreground font-mono">2019 - 2022</span>
@@ -67,7 +66,6 @@ const Education = () => {
                     <h3 className="text-xl font-bold">Universität Bern</h3>
                     <p className="text-accent font-medium">Bachelor of Science in Biology</p>
                     <p className="text-sm text-muted-foreground">Special qualification in Cell Biology</p>
-                    <p className="text-xs text-muted-foreground mt-2 italic">Cum laude honors</p>
                   </div>
                   <div className="text-right">
                     <span className="text-sm text-muted-foreground font-mono">2015 - 2019</span>
@@ -107,32 +105,9 @@ const Education = () => {
                 <CardTitle className="text-2xl border-b border-border pb-2">Academic Focus Areas</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  <div>
-                    <h3 className="font-semibold text-accent mb-2">Cell Biology</h3>
-                    <p className="text-sm text-muted-foreground">Advanced study of cellular mechanisms and dynamics</p>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-accent mb-2">Cancer Research</h3>
-                    <p className="text-sm text-muted-foreground">Specialized research in oncology and tumor biology</p>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-accent mb-2">Organoid Models</h3>
-                    <p className="text-sm text-muted-foreground">Expertise in 3D tissue modeling and analysis</p>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-accent mb-2">Immunology</h3>
-                    <p className="text-sm text-muted-foreground">Understanding of immune system mechanisms</p>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-accent mb-2">Microbiology</h3>
-                    <p className="text-sm text-muted-foreground">Study of microorganisms and their interactions</p>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-accent mb-2">Systems Biology</h3>
-                    <p className="text-sm text-muted-foreground">Comprehensive biological system analysis</p>
-                  </div>
-                </div>
+                <p className="text-sm text-muted-foreground mb-6">
+                  The specialization for both the Bachelor's and Master's degrees was in cell biology. Other focus areas included cancer biology, stem cell dynamics, organoid models, and immunology.
+                </p>
               </CardContent>
             </Card>
           </div>
