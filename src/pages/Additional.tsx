@@ -34,11 +34,11 @@ const Additional = () => {
                         className="w-full h-64 object-cover rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
                       />
                     </DialogTrigger>
-                    <DialogContent className="max-w-full max-h-full p-0 bg-black/90">
+                    <DialogContent className="max-w-[95vw] max-h-[95vh] p-0 bg-black/90 border-0">
                       <img 
                         src="/lovable-uploads/37f8facd-fbc6-496e-8fba-b8922777065f.png" 
                         alt="Taiwan Indigenous tribal ritual - Traditional ceremony" 
-                        className="w-full h-full object-contain"
+                        className="max-w-full max-h-full object-contain"
                       />
                     </DialogContent>
                   </Dialog>
@@ -50,11 +50,11 @@ const Additional = () => {
                         className="w-full h-64 object-cover rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
                       />
                     </DialogTrigger>
-                    <DialogContent className="max-w-full max-h-full p-0 bg-black/90">
+                    <DialogContent className="max-w-[95vw] max-h-[95vh] p-0 bg-black/90 border-0">
                       <img 
                         src="/lovable-uploads/63407aec-5444-4c2e-b631-94f4969e621b.png" 
                         alt="Taiwan Indigenous culture - Mountain landscape" 
-                        className="w-full h-full object-contain"
+                        className="max-w-full max-h-full object-contain"
                       />
                     </DialogContent>
                   </Dialog>
@@ -66,11 +66,11 @@ const Additional = () => {
                         className="w-full h-64 object-cover rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
                       />
                     </DialogTrigger>
-                    <DialogContent className="max-w-full max-h-full p-0 bg-black/90">
+                    <DialogContent className="max-w-[95vw] max-h-[95vh] p-0 bg-black/90 border-0">
                       <img 
                         src="/lovable-uploads/e97748ed-5c9f-401f-8e73-c5e22b575433.png" 
                         alt="Taiwan Indigenous tribal culture - Traditional dance" 
-                        className="w-full h-full object-contain"
+                        className="max-w-full max-h-full object-contain"
                       />
                     </DialogContent>
                   </Dialog>
@@ -118,7 +118,6 @@ const Additional = () => {
                 <div>
                   <h3 className="text-xl font-bold">Hospital Soldier</h3>
                   <p className="text-accent font-medium">Swiss Army</p>
-                  <p className="text-sm text-muted-foreground">Medical support and emergency response duties</p>
                 </div>
                 <div className="text-right">
                   <span className="text-sm text-muted-foreground font-mono">2014 - 2018</span>
