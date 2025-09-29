@@ -34,12 +34,14 @@ const Additional = () => {
                         className="w-full h-64 object-cover rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
                       />
                     </DialogTrigger>
-                    <DialogContent className="max-w-[95vw] max-h-[95vh] p-0 bg-black/90 border-0">
-                      <img 
-                        src="/lovable-uploads/37f8facd-fbc6-496e-8fba-b8922777065f.png" 
-                        alt="Taiwan Indigenous tribal ritual - Traditional ceremony" 
-                        className="max-w-full max-h-full object-contain"
-                      />
+                    <DialogContent className="max-w-[95vw] max-h-[95vh] p-0 bg-black/90 border-0 gap-0">
+                      <div className="w-[95vw] h-[95vh] flex items-center justify-center">
+                        <img 
+                          src="/lovable-uploads/37f8facd-fbc6-496e-8fba-b8922777065f.png" 
+                          alt="Taiwan Indigenous tribal ritual - Traditional ceremony" 
+                          className="max-w-full max-h-full object-contain"
+                        />
+                      </div>
                     </DialogContent>
                   </Dialog>
                   <Dialog>
@@ -50,12 +52,14 @@ const Additional = () => {
                         className="w-full h-64 object-cover rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
                       />
                     </DialogTrigger>
-                    <DialogContent className="max-w-[95vw] max-h-[95vh] p-0 bg-black/90 border-0">
-                      <img 
-                        src="/lovable-uploads/63407aec-5444-4c2e-b631-94f4969e621b.png" 
-                        alt="Taiwan Indigenous culture - Mountain landscape" 
-                        className="max-w-full max-h-full object-contain"
-                      />
+                    <DialogContent className="max-w-[95vw] max-h-[95vh] p-0 bg-black/90 border-0 gap-0">
+                      <div className="w-[95vw] h-[95vh] flex items-center justify-center">
+                        <img 
+                          src="/lovable-uploads/63407aec-5444-4c2e-b631-94f4969e621b.png" 
+                          alt="Taiwan Indigenous culture - Mountain landscape" 
+                          className="max-w-full max-h-full object-contain"
+                        />
+                      </div>
                     </DialogContent>
                   </Dialog>
                   <Dialog>
@@ -66,12 +70,14 @@ const Additional = () => {
                         className="w-full h-64 object-cover rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
                       />
                     </DialogTrigger>
-                    <DialogContent className="max-w-[95vw] max-h-[95vh] p-0 bg-black/90 border-0">
-                      <img 
-                        src="/lovable-uploads/e97748ed-5c9f-401f-8e73-c5e22b575433.png" 
-                        alt="Taiwan Indigenous tribal culture - Traditional dance" 
-                        className="max-w-full max-h-full object-contain"
-                      />
+                    <DialogContent className="max-w-[95vw] max-h-[95vh] p-0 bg-black/90 border-0 gap-0">
+                      <div className="w-[95vw] h-[95vh] flex items-center justify-center">
+                        <img 
+                          src="/lovable-uploads/e97748ed-5c9f-401f-8e73-c5e22b575433.png" 
+                          alt="Taiwan Indigenous tribal culture - Traditional dance" 
+                          className="max-w-full max-h-full object-contain"
+                        />
+                      </div>
                     </DialogContent>
                   </Dialog>
                 </div>
