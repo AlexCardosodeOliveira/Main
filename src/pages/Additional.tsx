@@ -134,8 +134,7 @@ const Additional = () => {
               </div>
               <div className="mt-4 p-4 bg-muted">
                 <p className="text-sm">
-                  Served as a hospital soldier in the Swiss Army, gaining valuable experience in medical support, 
-                  emergency response procedures, and working under pressure in structured environments.
+                  Served as a hospital soldier in the Swiss Army. All service days completed in 2018 - no repetition courses necessary.
                 </p>
               </div>
             </CardContent>
