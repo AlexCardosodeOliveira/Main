@@ -41,11 +41,11 @@ const Index = () => {
                 </div>
                 <div>
                   <span className="font-medium">Focus:</span><br />
-                  exosome therapeutics, cancer biology, stem cell dynamics
+                  Exosome therapeutics, cancer biology, stem cell dynamics
                 </div>
                 <div>
                   <span className="font-medium">Expertise:</span><br />
-                  Exosome Therapeutics, cancer reporter systems
+                  Exosome therapeutics, cancer reporter systems
                 </div>
               </div>
             </div>
