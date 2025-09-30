@@ -45,7 +45,7 @@ const Index = () => {
                 </div>
                 <div>
                   <span className="font-medium">Expertise:</span><br />
-                  Exosome therapeutics, cancer reporter systems
+                  Cell biology, cancer reporter systems
                 </div>
               </div>
             </div>
