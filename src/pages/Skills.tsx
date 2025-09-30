@@ -31,10 +31,10 @@ const Skills = () => {
                     and drug discovery through ongoing professional development and research activities.
                   </p>
                   <ul className="text-sm text-muted-foreground space-y-1">
-                    <li>• Drug Discovery - University of California, San Diego (Coursera), 2025</li>
-                    <li>• Drug Development Product Management - University of California, San Diego (Coursera), 2025</li>
-                    <li>• Clinical Trials Operations - John Hopkins University (Coursera), 2025</li>
-                    <li>• Drug Safety: Pharmacovigilance - John Hopkins University (Coursera), 2025</li>
+                    <li>• <span className="font-bold italic">Drug Discovery</span> - University of California, San Diego (Coursera), 2025</li>
+                    <li>• <span className="font-bold italic">Drug Development Product Management</span> - University of California, San Diego (Coursera), 2025</li>
+                    <li>• <span className="font-bold italic">Clinical Trials Operations</span> - John Hopkins University (Coursera), 2025</li>
+                    <li>• <span className="font-bold italic">Drug Safety: Pharmacovigilance</span> - John Hopkins University (Coursera), 2025</li>
                   </ul>
                 </div>
               </div>
