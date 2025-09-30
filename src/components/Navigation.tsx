@@ -49,7 +49,7 @@ const Navigation = () => {
               EDUCATION
             </NavLink>
             <NavLink
-              to="/certifications"
+              to="/skills"
               className={({ isActive }) =>
                 cn(
                   "text-sm font-medium transition-colors hover:text-accent",
@@ -57,7 +57,7 @@ const Navigation = () => {
                 )
               }
             >
-              CERTIFICATIONS
+              SKILLS
             </NavLink>
             <NavLink
               to="/additional"
